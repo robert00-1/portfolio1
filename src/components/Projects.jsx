@@ -245,14 +245,16 @@ export default function Projects() {
               secure JWT authentication, and automated business workflows.
             </p>
 
-            <a
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block bg-cyan-400 text-black px-8 py-3 rounded-full font-bold hover:bg-cyan-300 transition"
-            >
-              View Project
-            </a>
+<a
+  href="https://supermarket-pos-system-self.vercel.app/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-block bg-cyan-400 text-black px-8 py-3 rounded-full font-bold hover:bg-cyan-300 transition"
+>
+  View Live Project
+</a>
+
+          
 
           </div>
         </div>
