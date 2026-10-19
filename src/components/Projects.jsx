@@ -143,8 +143,75 @@ export default function Projects() {
 
           </div>
         </div>
+          
+                 {/* ===================== QUICKBITE ===================== */}
+        <div className="max-w-3xl mx-auto bg-gray-900 rounded-2xl overflow-hidden shadow-lg hover:scale-105 transition duration-300">
 
+          <div className="w-full h-72 bg-gray-800 flex items-center justify-center">
+            <h2 className="text-5xl font-bold text-cyan-400 text-center px-4">
+              QuickBite 🍔
+            </h2>
+          </div>
 
+          <div className="p-8">
+            <h2 className="text-3xl font-bold mb-4">
+              QuickBite Restaurant Management System
+            </h2>
+
+            <p className="text-gray-300 mb-6 leading-7">
+              QuickBite is a full-stack restaurant ordering and management
+              platform that allows customers to browse menus, place orders,
+              and choose payment methods. It includes dedicated waiter and
+              manager dashboards, order status management, menu and food
+              availability controls, inventory tracking, and M-Pesa Daraja
+              STK Push integration. The application uses React, Flask,
+              PostgreSQL, and REST APIs, with deployment on Vercel and Render.
+            </p>
+
+            <div className="flex flex-wrap gap-3 mb-6">
+              <span className="bg-gray-800 text-cyan-400 px-3 py-1 rounded-full">
+                React
+              </span>
+
+              <span className="bg-gray-800 text-cyan-400 px-3 py-1 rounded-full">
+                Flask
+              </span>
+
+              <span className="bg-gray-800 text-cyan-400 px-3 py-1 rounded-full">
+                PostgreSQL
+              </span>
+
+              <span className="bg-gray-800 text-cyan-400 px-3 py-1 rounded-full">
+                SQLAlchemy
+              </span>
+
+              <span className="bg-gray-800 text-cyan-400 px-3 py-1 rounded-full">
+                REST APIs
+              </span>
+
+              <span className="bg-gray-800 text-cyan-400 px-3 py-1 rounded-full">
+                M-Pesa Daraja
+              </span>
+
+              <span className="bg-gray-800 text-cyan-400 px-3 py-1 rounded-full">
+                Vercel
+              </span>
+
+              <span className="bg-gray-800 text-cyan-400 px-3 py-1 rounded-full">
+                Render
+              </span>
+            </div>
+
+            <a
+              href="https://frontend-three-phi-81.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-cyan-400 text-black px-8 py-3 rounded-full font-bold hover:bg-cyan-300 transition"
+            >
+              View Live Project
+            </a>
+          </div>
+        </div>
         {/* ===================== TATTOO & MASSAGE BOOKING PLATFORM ===================== */}
         <div className="max-w-3xl mx-auto bg-gray-900 rounded-2xl overflow-hidden shadow-lg hover:scale-105 transition duration-300">
 
