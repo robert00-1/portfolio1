@@ -36,18 +36,18 @@ export default function Services() {
         </div>
 
       </div>
-
-      {/* CV Button */}
-      <div className="mt-12 flex justify-center">
-        <a
-          href="/ROBERT CV.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="bg-cyan-400 text-black px-8 py-3 rounded-full font-bold hover:bg-cyan-300 transition"
-        >
-          View My CV
-        </a>
-      </div>
+       
+{/* CV Button */}
+<div className="mt-12 flex justify-center">
+  <a
+    href="/ROBERT%20CV.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-cyan-400 text-black px-8 py-3 rounded-full font-bold hover:bg-cyan-300 transition"
+  >
+    View My CV
+  </a>
+</div>
 
     </section>
   );
